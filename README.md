@@ -1,6 +1,4 @@
 # powershellfilemove
-move files based on a csv list
-
 script for moving files listed in a csv from one location to another 
 
 all you need to do is change ... to the direcotry paths stated in the comments
