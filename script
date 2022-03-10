@@ -25,7 +25,7 @@ $length = $fileName.count
 ###copy item from source to destination
 for ($i=0; $i -lt $length; $i++) {
 	$loopFileName = $fileName[$position]
-	$fullFilePath = "$source\$loopFileName.txt"
+	$fullFilePath = "$source\$loopFileName"
 	Copy-Item $fullFilePath -Destination "$dest"
 	$position++
 }
